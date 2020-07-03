@@ -1,10 +1,4 @@
 # printing right angled triangle pattern
-'''input
-4
-2
-1
-5
-10
 x=int(input())
 for t in range(x):
     a=int(input())

@@ -1,0 +1,46 @@
+# printing right angled triangle pattern
+'''input
+4
+2
+1
+5
+10
+x=int(input())
+for t in range(x):
+    a=int(input())
+    print("Case #{}:".format(t+1))
+    for i in range(1,a+1):
+        for j in range(1,a+1):
+            if  i+j>a:
+                print('*',end='')
+            else:
+                print(" ",end='')
+        print()
+''' input :4
+           2
+           1
+           5
+          10 
+ output:
+ Case #1:
+ *
+**
+Case #2:
+*
+Case #3:
+    *
+   **
+  ***
+ ****
+*****
+Case #4:
+         *
+        **
+       ***
+      ****
+     *****
+    ******
+   *******
+  ********
+ *********
+**********            '''
